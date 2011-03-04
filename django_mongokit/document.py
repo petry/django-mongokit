@@ -1,6 +1,7 @@
 import sys
 import re
-from mongokit.document import DocumentProperties, CallableMixin
+from mongokit.document import DocumentProperties
+from mongokit.connection import CallableMixin
 from mongokit import Document
 from django.db.models import signals
 model_names = []
